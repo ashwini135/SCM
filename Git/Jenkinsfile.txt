@@ -5,8 +5,8 @@ pipeline {
             steps {
                 echo 'running stage1!' 
             }
-        }
-              stage('Stage 2') {
+       }
+             stage('Stage 2') {
     steps {
         echo 'running stage2!' 
  }
