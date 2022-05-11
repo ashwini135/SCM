@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Stage 1') {
             steps {
-            sh 'git clone url -n master'
+            sh 'git clone https://github.com/ashwini135/SCM.git -b master'
                 echo 'running stage1!' 
             }
        }
