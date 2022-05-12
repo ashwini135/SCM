@@ -4,7 +4,7 @@ pipeline {
         stage('Stage 1') {
             steps {
             sh 'git clone https://github.com/ashwini135/SCM.git -b master'
-                echo 'running stage1!' 
+               echo 'running stage1!' 
             }
        }
              stage('Stage 2') {
